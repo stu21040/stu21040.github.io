@@ -10,11 +10,47 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #ea78ad;
-            margin: 0px;
+            margin: 30px;
             padding: 30px;
             color: #fafafa;
             text-align: center;
         }
+
+        #myMapButton {
+            position: absolute;/*按鈕位置：絕對置中*/
+            width: 200px;  /*按鈕寬度  因為在 body CSS 裡有 text-align="center" 所以全部的內容會先置中*/
+            margin-left: -100px;  /*按鈕寬度*/
+            bottom: 30px;  /*真實邊界_底部*/
+            cursor: pointer;/*滑鼠移到按鈕上，會變成手形*/
+            border-radius: 5px;/*按鈕圓角*/
+            border: none;/*按鈕不要有邊界*/
+            background-color: #c2ea78;/*按鈕的背景色*/
+            color: #4a0726;/*按鈕顏色*/
+            padding: 10px;/*按鈕上下左右的邊界*/
+        }
+
+/* 授課時原始的按鈕樣式
+        button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #FFFFFF;
+            color: #FF0000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+ */
+
+        /* 如果是基本button樣式，CSS為 button */
+        /* 如果是單一的樣式，前面為 #     */
+        /* 如果是一群相同的樣式，前面為.   */
+        
     </style>
 
 </head>
@@ -22,5 +58,9 @@
     Hello World 20250110</br>
     Mr. Lo</br>
     元宇宙課程實戰
+    <br>
+    <button id="myMapButton" onclick="alert('按鈕被點擊！')">開啟地圖</button>
+    <!-- <button id="myButton" onclick="alert('按鈕被點擊！')">點擊我</button> -->
+<!-- 如果要 加上/改成 註解，可以按 ctrl+/  -->
 </body>
 </html>
