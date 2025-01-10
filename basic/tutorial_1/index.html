@@ -10,7 +10,6 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #ea78ad;
-            margin: 30px;
             padding: 30px;
             color: #fafafa;
             text-align: center;
@@ -18,8 +17,8 @@
 
         #myMapButton {
             position: absolute;/*按鈕位置：絕對置中*/
-            width: 200px;  /*按鈕寬度  因為在 body CSS 裡有 text-align="center" 所以全部的內容會先置中*/
-            margin-left: -100px;  /*按鈕寬度*/
+            width: 200px;  /*按鈕寬度為200px,因為在 body CSS 裡有 text-align="center" 所以按鈕的左上角會置中*/
+            margin-left: -100px;  /*按鈕寬度向左移100px，這樣按鈕才會「看起來」置中*/
             bottom: 30px;  /*真實邊界_底部*/
             cursor: pointer;/*滑鼠移到按鈕上，會變成手形*/
             border-radius: 5px;/*按鈕圓角*/
@@ -28,6 +27,22 @@
             color: #4a0726;/*按鈕顏色*/
             padding: 10px;/*按鈕上下左右的邊界*/
         }
+
+        #imgDiv {
+            position: absolute;
+            background-color: #30070e;
+            width: 250px;
+            height: 300px;
+
+
+            left: 50%;
+            margin-left: -125px;
+
+            top: 50%;
+            margin-top: -150px;
+        }
+
+
 
 /* 授課時原始的按鈕樣式
         button {
@@ -59,6 +74,7 @@
     Mr. Lo</br>
     元宇宙課程實戰
     <br>
+    <div id="imgDiv"></div>
     <button id="myMapButton" onclick="alert('按鈕被點擊！')">開啟地圖</button>
     <!-- <button id="myButton" onclick="alert('按鈕被點擊！')">點擊我</button> -->
 <!-- 如果要 加上/改成 註解，可以按 ctrl+/  -->
