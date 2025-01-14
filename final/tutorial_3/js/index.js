@@ -42,17 +42,19 @@ marker3.on('click', function () {
     map.panTo([25.023832509868086, 121.52696036841165]); // 平移到臺灣師大臺文系_雲和教學大樓
 });
 
-function goPage3(){
-    window.location.href = "https://stu21040.github.io/final/tutorial_3/index.html";
-}
 
 function goPage1(){
-    window.location.href = "https://stu21040.github.io/final/tutorial_3/index2.html";
+    window.location.href = "./index2.html";
 }
 
 
 function goPage2(){
     window.location.href = "https://mira-ar.n010.app/show/MJGupD";
+}
+
+
+function goPage3(){
+    window.location.href = "./index.html";
 }
 
 //25.02628220891764, 121.52756985187678
