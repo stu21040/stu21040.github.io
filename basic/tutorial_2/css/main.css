@@ -1,0 +1,12 @@
+#map {
+    height: 600px;
+    width: 600px;
+    position:absolute ;
+    
+    left: 50%;
+    margin-left: -300px;
+
+    top: 50%;
+    margin-top: -300px;
+    } 
+

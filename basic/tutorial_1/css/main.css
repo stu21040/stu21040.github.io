@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ea78ad;
+    padding: 30px;
+    color: #fafafa;
+    text-align: center;
+}
+
+#myMapButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    color: #FF0000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#imgDiv {
+    position: absolute;
+    background-color: #e6f1ce;
+    width: 300px;
+    height: 300px;
+
+
+    left: 50%;
+    margin-left: -150px;
+
+    top: 50%;
+    margin-top: -150px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+/* 授課時原始的按鈕樣式
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FFFFFF;
+    color: #FF0000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+img{
+    max-width: auto;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+*/
+
+/* 如果是基本button樣式，CSS為 button */
+/* 如果是單一的樣式，前面為 #     */
+/* 如果是一群相同的樣式，前面為.   */
