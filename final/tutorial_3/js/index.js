@@ -52,7 +52,7 @@ function goPage1(){
 
 
 function goPage2(){
-    window.location.href = "https://mira-ar.n010.app/show/XGJFpE";
+    window.location.href = "https://mira-ar.n010.app/show/MJGupD";
 }
 
 //25.02628220891764, 121.52756985187678
